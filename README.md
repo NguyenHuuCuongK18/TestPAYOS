@@ -47,16 +47,16 @@ Vui lòng mở 2 cửa sổ dòng lệnh (Terminal/Command Prompt/PowerShell) ri
 ### Bước 1: Khởi chạy Backend (Cổng 3000)
 Mở cửa sổ dòng lệnh thứ nhất và chạy:
 ```bash
-cd e:\TestPAYOS\backend
-E:\UngDung\portable-lemp\php\php.exe artisan serve --port=3000
+cd .\TestPAYOS\backend
+php artisan serve --port=3000
 ```
 > Khi màn hình hiện dòng `INFO Server running on [http://127.0.0.1:3000]` là Backend đã sẵn sàng.
 
 ### Bước 2: Khởi chạy Frontend (Cổng 8080)
 Mở cửa sổ dòng lệnh thứ hai và chạy:
 ```powershell
-cd e:\TestPAYOS\frontend
-powershell -ExecutionPolicy Bypass -Command "npm start"
+cd .\TestPAYOS\frontend
+npm start
 ```
 > Trình duyệt sẽ tự động mở trang web tại địa chỉ `http://localhost:8080`.
 
